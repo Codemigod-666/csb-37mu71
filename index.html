@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+    <header id="header-section">
+        
+    <nav class="nav-bar">
+        
+        <div class="left-nav">
+            <img src="restraunt img 1.jfif" alt=""
+            style="height: 5rem">
+        </div>
+
+        <div class="right-nav">
+            <div class="inside-right-nav">
+                <ul class="horizontal-list">
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#menu">Menu</a></li>
+
+                    <li><a href="#about-us">About</a></li>
+
+                    <li ><a href="#gallery">Gallery</a></li>
+
+                    <li><a href="#contact">Contact</a></li>
+
+
+                    <!-- <li><a href="#"></a></li> -->
+                </ul>
+            </div>
+
+            <select id="dropdown">
+                <option value="#"><a href="#menu">Menu</a></option>
+                <option value="#">Home</option>
+                <option value="#"><a href="#about-us">About Us</a></option>
+                <option value="#contact"><a href="#contact">Contact Us</a></option>
+              </select>
+        </div>
+
+       
+    </nav>
+
+    <div class="intro-section" style="text-align:center">
+        <h1 style="font-family: Arial, Helvetica, sans-serif; font-weight:700; color:white;">Welcome to Restaurent</h1>
+
+        <div id="intro-paragraraph">
+            <p style="color: white">
+                Welcome to our restaurant! We are delighted to have you join us for a delicious dining experience. <br> Our establishment is dedicated to providing you with the finest quality food, attentive service, and a warm and welcoming atmosphere. <br>
+
+            </p>
+        </div>
+    </div>
+    
+   
+
+
+    <div class="booking-section">
+        <div class="reservation-section">
+            <button class="for-reservation" >
+                <a href="#reservation" style="color:white;font-weight: 760;">BOOK A TABLE</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="images-container">
+        <div id="w3-card w3-red">
+            <img src="" alt="">
+        </div>
+        <div id="second-image"></div>
+        <div id="third-image"></div>
+    </div>
+
+
+    </header>
+
+    <main>
+
+        <div id="menu">
+            <div style="height:10%; display: flex;flex-direction: column;"><h1><b>SERVICES</b></h1></div>
+            <div class="w3-container">
+                
+                <div class="w3-card w3-quarter food-service " >
+                    <div class="food-image two"></div>
+                    <h1> Fruit  Sp.</h1>
+
+                    <p>This is the main dish.
+                        It's one of the speciality of our restraunt. <br>
+                        White Cream with Onion seasoning and many more. Enjoy with uttermost joy.
+                        This is the main dish.
+                        It's one of the speciality of our restraunt. <br>
+                        White Cream with Onion seasoning and many more. Enjoy with uttermost joy.
+                    </p>
+                </div>
+
+                <div class="w3-card w3-quarter  food-service">
+                    <div class="food-image one"></div>
+                    <h1> Pasta  Sp.</h1>
+
+                    <p>This is the main dish.
+                        It's one of the speciality of our restraunt. <br>
+                        White Cream with Onion seasoning and many more. Enjoy with uttermost joy.
+                        This is the main dish.
+                        It's one of the speciality of our restraunt. <br>
+                        White Cream with Onion seasoning and many more. Enjoy with uttermost joy.
+                    </p>
+                </div>
+
+                <div class="w3-card w3-quarter food-service">
+                    <div class="food-image three"></div>
+                    <h1> Pasta  Sp.</h1>
+
+                    <p>This is the main dish.
+                        It's one of the speciality of our restraunt. <br>
+                        White Cream with Onion seasoning and many more. Enjoy with uttermost joy.
+                        This is the main dish.
+                        It's one of the speciality of our restraunt. <br>
+                        White Cream with Onion seasoning and many more. Enjoy with uttermost joy.
+                    </p>
+                </div>
+            </div>
+               
+        </div>
+
+        
+        <div id="reservation" class="w3-center"><h1 class="white">TABLE BOOKING FORM</h1>
+
+            <div class="outer-form-container">
+                <div class="left-side w3-animate-right">
+                    <h2 style="color:white">Regular Reservations</h2>
+                    <form class="w3-animate-zoom">
+                        
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" required>
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" name="time" required>
+                        <label for="guests">Number of guests:</label>
+                        <select id="guests" name="guests" required>
+                          <option value="">Select number of guests</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10 or more</option>
+                        </select>
+                        
+                        <input type="submit" value="Submit" style="margin-top:20px;">
+                      </form>
+
+                    
+                </div>
+                <div class="right-side"></div>
+            </div>
+        </div>
+
+        
+        <div id="contact" style="background-color:black; color: white ">
+            
+           <div class="section-contact">
+            <h2 style="color:white">Contact Us</h2>
+            <p>Feel free to get in touch with us for any inquiries or reservations.</p>
+            <ul>
+              <li><strong>Address:</strong> 123 Main Street, Anytown USA</li>
+              <li><strong>Phone:</strong> (123) 456-7890</li>
+              <li><strong>Email:</strong> info@restaurant.com</li>
+            </ul>
+
+           </div>
+           
+           <h1 style="text-align:center;">LOCATIONS</h1>
+           <div class="w3-container location-box">
+
+                
+            <div class="w3-card w3-third w3-white w3-margin sticker-service " style="height:90%; width:30%;" >
+                <div class="shop-one"> </div>
+                LOVELY STREET
+               
+            </div>
+            <div class="w3-card w3-third w3-white w3-margin sticker-service " style="height:90%;width:30%" >
+                <div class="shop-two"></div>
+                TASTY CORNER
+            </div>
+            <div class="w3-card w3-third w3-white w3-margin sticker-service " style="height: 90%;width:30%;" >
+                <div class="shop-three"></div>
+                DELICIOUS SQUARE
+               
+            </div>
+            </div>
+        </div>
+
+           
+        </div>
+    </main>
+
+
+    <footer style="background-color: black;">
+        <div style="text-align: center; height: 20px; color: white">'Copyright' 2023 | Table Reservation Form | All rights reserved | by Rishi Vijay Kumar Khandagle. </div>
+    </footer>
+    
+</body>
+</html>

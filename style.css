@@ -1,0 +1,347 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* body header */
+#header-section {
+  height: 99vh;
+  background-image: url(hotel-pic.jpg);
+  opacity: 0.8;
+  background-size: cover;
+  /* background-position:center; */
+  background-attachment: fixed;
+}
+.nav-bar {
+  background-color: black;
+  height: 100px;
+}
+.horizontal-list {
+  list-style: none;
+  height: 100px;
+  padding-left: 0px;
+  margin: 0px;
+
+  /* background-color: black; */
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 35px 15px 15px 0px;
+  /* padding: 10px; */
+  /* background-color: blue; */
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.horizontal-list li a:hover {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 5px;
+  color: black;
+}
+
+.horizontal-list li a {
+  /* float: right; */
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+.left-nav {
+  display: inline-block;
+  /* margin: ; */
+}
+.left-nav img {
+  border-radius: 6rem;
+  margin: 10px;
+}
+
+.right-nav {
+  /* display: inline-block; */
+  float: right;
+  margin-right: 12rem;
+}
+
+#intro-paragraph {
+  height: 30%;
+  width: 60%;
+  overflow: scroll;
+}
+
+/* .nav-bar .horizontal-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+} */
+
+.booking-section {
+  height: 5rem;
+  width: 12rem;
+  /* background-color: blue; */
+  margin: auto;
+}
+
+.booking-section button {
+  height: 5rem;
+  width: 12rem;
+  margin-top: 100px;
+  font-size: larger;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.booking-section button {
+  /* text-decoration: none; */
+  background-color: black;
+  text-decoration: none;
+}
+.booking-section button a {
+  text-decoration: none;
+}
+.booking-section button:hover {
+  background-color: orangered;
+}
+
+main div {
+  height: 90vh;
+}
+
+main > div {
+  display: flex;
+  flex-direction: column;
+}
+
+main > div:nth-child(2n) {
+  background-color: grey;
+}
+
+.pic-contain img {
+  height: 60%;
+  width: 95%;
+
+  margin-top: 10rem;
+}
+
+#menu > div {
+  background-image: url(food-background-image1.jpeg);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+#menu .food-service {
+  height: 70%;
+  overflow-y: scroll;
+  background-color: aliceblue;
+  border-radius: 1rem;
+}
+
+#menu .food-service:hover {
+  height: 80%;
+  width: 30%;
+}
+.food-service .food-image {
+  /* background-image: url(chef1.jfif); */
+  background-size: cover;
+  height: 40%;
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.food-service .one {
+  background-image: url(food-image-1.jpeg);
+}
+.food-service .two {
+  background-image: url(food-image-2.jpeg);
+}
+.food-service .three {
+  background-image: url(food-image-3.jpeg);
+}
+
+#reservation {
+  background-image: url(form-background-1.jpeg);
+  opacity: 0.9;
+  background-size: cover;
+  height: 110vh;
+}
+
+.white {
+  color: white;
+}
+
+/* FORM SECTION */
+
+.outer-form-container {
+  height: 80%;
+  width: 70%;
+  margin: auto;
+  background-image: url(form-background-2.jpeg);
+  opacity: 0.8;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.outer-form-container label {
+  color: white;
+  font-size: larger;
+}
+
+.outer-form-container .left-side {
+  width: 95%;
+  height: 100%;
+  /* background-color: cyan; */
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* align-items: center; */
+  justify-content: left;
+  overflow-y: scroll;
+}
+.outer-form-container .right-side {
+  width: 40%;
+  height: 100%;
+  /* background-color: blueviolet; */
+  background-image: url(food-image-1.jpeg);
+  background-size: cover;
+}
+
+form {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+/* @media screen and (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+} */
+
+.right-nav select {
+  display: none;
+}
+
+@media (max-width: 870px) {
+  .right-nav ul {
+    display: none;
+  }
+
+  .right-nav select {
+    display: block;
+    justify-content: right;
+    margin: 10px;
+  }
+
+  .right-side {
+    display: none;
+  }
+  .left-side {
+    width: 90%;
+  }
+}
+
+#contact {
+  font-family: sans-serif;
+  font-size: larger;
+
+  font-weight: 700;
+  /* height: 400px; */
+  /* background-image: linear-gradient( 190deg, gold,red,yellow) */
+}
+
+.section-contact {
+  margin: auto;
+  line-height: 2rem;
+}
+
+.sticker-service {
+  border: 3px solid white;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.sticker-service > div {
+  border-radius: inherit;
+  height: inherit;
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+.sticker-service div:hover {
+  opacity: 0.5;
+}
+
+.shop-one {
+  background-image: url(restaurant-1.jpg);
+  background-size: cover;
+}
+.shop-two {
+  background-image: url(restaurant-2.jpg);
+  background-size: cover;
+}
+.shop-three {
+  background-image: url(restaurant-3.jpg);
+  background-size: cover;
+}
+
+.location-box {
+  display: flex;
+  flex-direction: row;
+}
